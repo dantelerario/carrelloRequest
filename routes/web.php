@@ -21,4 +21,4 @@ Route::get('/', function () {
 // Route::get('cart', "CartController@index");
 
 //chiamata da DB
-Route::get('carts', "CartController@list");
+Route::get('orders', "OrderController@callList");
